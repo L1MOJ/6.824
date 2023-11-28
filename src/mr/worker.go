@@ -35,6 +35,7 @@ func Worker(mapf func(string, string) []KeyValue,
 
 	// uncomment to send the Example RPC to the master.
 	// CallExample()
+	CallAskTask()
 
 }
 
@@ -59,6 +60,16 @@ func CallExample() {
 
 	// reply.Y should be 100.
 	fmt.Printf("reply.Y %v\n", reply.Y)
+}
+
+// make RPC call to master to ask for task
+func CallAskTask() {
+	args := AskTaskArgs{}
+	args.X = 1
+	reply := AskTaskReply{}
+
+	call("Master.AskTask", &args, &reply)
+	fmt.Printf("reply.Name %v\n", reply.Name)
 }
 
 //

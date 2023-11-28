@@ -5,11 +5,15 @@ import "net"
 import "os"
 import "net/rpc"
 import "net/http"
+import "time"
 
+type Task struct {
+	Name string
+}
 
 type Master struct {
 	// Your definitions here.
-
+	task Task
 }
 
 // Your code here -- RPC handlers for the worker to call.
@@ -21,6 +25,13 @@ type Master struct {
 //
 func (m *Master) Example(args *ExampleArgs, reply *ExampleReply) error {
 	reply.Y = args.X + 1
+	return nil
+}
+
+// ask for task from master through RPC
+func (m *Master) AskTask(args *AskTaskArgs, reply *AskTaskReply) error {
+	m.task.Name = "test"
+	reply.Name = m.task.Name
 	return nil
 }
 
@@ -46,11 +57,11 @@ func (m *Master) server() {
 // if the entire job has finished.
 //
 func (m *Master) Done() bool {
-	ret := false
+	ret := true
 
 	// Your code here.
-
-
+	// sleep for a while
+	time.Sleep(2 * time.Second)
 	return ret
 }
 
@@ -63,7 +74,6 @@ func MakeMaster(files []string, nReduce int) *Master {
 	m := Master{}
 
 	// Your code here.
-
 
 	m.server()
 	return &m

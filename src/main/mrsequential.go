@@ -22,6 +22,14 @@ func (a ByKey) Len() int           { return len(a) }
 func (a ByKey) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
 func (a ByKey) Less(i, j int) bool { return a[i].Key < a[j].Key }
 
+/**
+ * 1. 读取输入文件
+ * 2. 调用mapf函数，将输入文件的内容传递给mapf函数
+ * 3. 将mapf函数的输出结果保存到intermediate数组中
+ * 4. 对intermediate数组进行排序
+ * 5. 调用reducef函数，将intermediate数组中的内容传递给reducef函数
+ * 6. 将reducef函数的输出结果保存到mr-out-0文件中
+ */
 func main() {
 	if len(os.Args) < 3 {
 		fmt.Fprintf(os.Stderr, "Usage: mrsequential xxx.so inputfiles...\n")
@@ -65,6 +73,7 @@ func main() {
 	// call Reduce on each distinct key in intermediate[],
 	// and print the result to mr-out-0.
 	//
+
 	i := 0
 	for i < len(intermediate) {
 		j := i + 1
