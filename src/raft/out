@@ -1,0 +1,960 @@
+Test (2A): initial election ...
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 2 sending RequestVote RPC to 1 at Term1
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 0 sending RequestVote RPC to 2 at Term1
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 0 sending RequestVote RPC to 1 at Term1
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 2 sending RequestVote RPC to 0 at Term1
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:35 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:35 Candidate 2 has won the election, election ended for Term 1
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 2 with term 1
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 1 with term 1
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:35 Vote reply from 2 is out-of-date in 0
+2024/12/06 23:15:35 Vote reply from 1 is out-of-date in 0
+2024/12/06 23:15:35 Vote reply from 0 is out-of-date in 2
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 0 sending RequestVote RPC to 2 at Term2
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:35 Follower 2 voted for 0, it now has 2 votes
+2024/12/06 23:15:35 Candidate 0 has won the election, election ended for Term 2
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 0 sending RequestVote RPC to 1 at Term2
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:35 Follower 1 voted for 0, it now has 3 votes
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Acquire lock at GetState, server 0
+2024/12/06 23:15:35 Acquire lock at GetState, server 1
+2024/12/06 23:15:35 Acquire lock at GetState, server 2
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Acquire lock at GetState, server 0
+2024/12/06 23:15:35 Acquire lock at GetState, server 1
+2024/12/06 23:15:35 Acquire lock at GetState, server 2
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 2 sending RequestVote RPC to 1 at Term3
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 2 sending RequestVote RPC to 0 at Term3
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:35 Candidate 2 has won the election, election ended for Term 3
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:35 Follower 0 voted for 2, it now has 3 votes
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 1 sending RequestVote RPC to 2 at Term4
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 0 sending RequestVote RPC to 2 at Term4
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 0 sending RequestVote RPC to 1 at Term4
+2024/12/06 23:15:35 Lock acquired at candidateRequestVote
+2024/12/06 23:15:35 Leader 1 sending RequestVote RPC to 0 at Term4
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 0 with term 3
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 2 with term 4
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 1 to 2 with term 4
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 1 to 0 with term 4
+2024/12/06 23:15:35 Lock acquired at RequestVote
+2024/12/06 23:15:35 RequestVote RPC called from 0 to 1 with term 4
+2024/12/06 23:15:35 Follower 2 voted for 0, it now has 2 votes
+2024/12/06 23:15:35 Candidate 0 has won the election, election ended for Term 4
+2024/12/06 23:15:35 Lock acquired at AppendEntries
+2024/12/06 23:15:35 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:35 Vote reply from 1 is out-of-date in 0
+2024/12/06 23:15:35 Vote reply from 2 is out-of-date in 1
+2024/12/06 23:15:35 Vote reply from 0 is out-of-date in 1
+2024/12/06 23:15:35 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 2 with term 4
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 1 with term 4
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 2 with term 4
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 1 with term 4
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 2 with term 4
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 1 with term 4
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 1 sending RequestVote RPC to 2 at Term5
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 1 sending RequestVote RPC to 0 at Term5
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 1 with term 4
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 0 to 2 with term 4
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 5
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 5
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Follower 2 voted for 1, it now has 2 votes
+2024/12/06 23:15:36 Candidate 1 has won the election, election ended for Term 5
+2024/12/06 23:15:36 Follower 0 voted for 1, it now has 3 votes
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 5
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 5
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 5
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 5
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 5
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 5
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 5
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 5
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 2 sending RequestVote RPC to 1 at Term6
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 2 sending RequestVote RPC to 0 at Term6
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 5
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 5
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 6
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:36 Candidate 2 has won the election, election ended for Term 6
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 6
+2024/12/06 23:15:36 Follower 0 voted for 2, it now has 3 votes
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 6
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 6
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 6
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 6
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 6
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 6
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 6
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 6
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 1 sending RequestVote RPC to 0 at Term7
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 7
+2024/12/06 23:15:36 Follower 0 voted for 1, it now has 2 votes
+2024/12/06 23:15:36 Candidate 1 has won the election, election ended for Term 7
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 1 sending RequestVote RPC to 2 at Term7
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 7
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 6
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 6
+2024/12/06 23:15:36 Follower 2 voted for 1, it now has 3 votes
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 7
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 7
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 7
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 7
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 7
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 7
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 2 with term 7
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 1 to 0 with term 7
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 2 sending RequestVote RPC to 1 at Term8
+2024/12/06 23:15:36 Lock acquired at candidateRequestVote
+2024/12/06 23:15:36 Leader 2 sending RequestVote RPC to 0 at Term8
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 8
+2024/12/06 23:15:36 Lock acquired at RequestVote
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 8
+2024/12/06 23:15:36 Follower 0 voted for 2, it now has 2 votes
+2024/12/06 23:15:36 Candidate 2 has won the election, election ended for Term 8
+2024/12/06 23:15:36 Follower 1 voted for 2, it now has 3 votes
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 8
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 8
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 0 with term 8
+2024/12/06 23:15:36 Lock acquired at AppendEntries
+2024/12/06 23:15:36 RequestVote RPC called from 2 to 1 with term 8
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:36 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 8
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 8
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 1 sending RequestVote RPC to 2 at Term9
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 8
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 8
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 1 sending RequestVote RPC to 0 at Term9
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 0 sending RequestVote RPC to 1 at Term9
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 0 sending RequestVote RPC to 2 at Term9
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 9
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 9
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 9
+2024/12/06 23:15:37 Vote reply from 1 is out-of-date in 0
+2024/12/06 23:15:37 Vote reply from 0 is out-of-date in 1
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 9
+2024/12/06 23:15:37 Follower 2 voted for 1, it now has 2 votes
+2024/12/06 23:15:37 Candidate 1 has won the election, election ended for Term 9
+2024/12/06 23:15:37 Vote reply from 2 is out-of-date in 0
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 9
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 9
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 9
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 9
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 9
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 9
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 2 sending RequestVote RPC to 1 at Term10
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 2 sending RequestVote RPC to 0 at Term10
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 9
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 9
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:37 Candidate 2 has won the election, election ended for Term 10
+2024/12/06 23:15:37 Follower 0 voted for 2, it now has 3 votes
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 0 sending RequestVote RPC to 2 at Term11
+2024/12/06 23:15:37 Leader 1 sending RequestVote RPC to 0 at Term11
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 11
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 10
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Follower 2 voted for 0, it now has 2 votes
+2024/12/06 23:15:37 Candidate 0 has won the election, election ended for Term 11
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 0 sending RequestVote RPC to 1 at Term11
+2024/12/06 23:15:37 Leader 1 sending RequestVote RPC to 2 at Term11
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 10
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 11
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 11
+2024/12/06 23:15:37 Vote reply from 1 is out-of-date in 0
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 11
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Vote reply from 2 is out-of-date in 1
+2024/12/06 23:15:37 Vote reply from 0 is out-of-date in 1
+2024/12/06 23:15:37 Acquire lock at GetState, server 0
+2024/12/06 23:15:37 Acquire lock at GetState, server 1
+2024/12/06 23:15:37 Acquire lock at GetState, server 2
+warning: term changed even though there were no failures2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 11
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 11
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 11
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 11
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 11
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 11
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 11
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 11
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 1 sending RequestVote RPC to 2 at Term12
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Lock acquired at candidateRequestVote
+2024/12/06 23:15:37 Leader 1 sending RequestVote RPC to 0 at Term12
+2024/12/06 23:15:37 Leader 2 sending RequestVote RPC to 0 at Term12
+2024/12/06 23:15:37 Leader 2 sending RequestVote RPC to 1 at Term12
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 1 with term 11
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 0 to 2 with term 11
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 1 with term 12
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 12
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 12
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at RequestVote
+2024/12/06 23:15:37 RequestVote RPC called from 2 to 0 with term 12
+2024/12/06 23:15:37 Vote reply from 1 is out-of-date in 2
+2024/12/06 23:15:37 Follower 0 voted for 1, it now has 2 votes
+2024/12/06 23:15:37 Candidate 1 has won the election, election ended for Term 12
+2024/12/06 23:15:37 Vote reply from 2 is out-of-date in 1
+2024/12/06 23:15:37 Vote reply from 0 is out-of-date in 2
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 12
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 12
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 12
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 12
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 2 with term 12
+2024/12/06 23:15:37 Lock acquired at AppendEntries
+2024/12/06 23:15:37 RequestVote RPC called from 1 to 0 with term 12
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:37 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 1 to 0 with term 12
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 1 to 2 with term 12
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 0 sending RequestVote RPC to 2 at Term13
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 1 to 2 with term 12
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 0 sending RequestVote RPC to 1 at Term13
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 1 to 0 with term 12
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 1 with term 13
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 2 with term 13
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Follower 1 voted for 0, it now has 2 votes
+2024/12/06 23:15:38 Candidate 0 has won the election, election ended for Term 13
+2024/12/06 23:15:38 Follower 2 voted for 0, it now has 3 votes
+2024/12/06 23:15:38 Acquire lock at GetState, server 0
+2024/12/06 23:15:38 Acquire lock at GetState, server 1
+2024/12/06 23:15:38 Acquire lock at GetState, server 2
+  ... Passed --   3.1  3  146   18044    0
+Test (2A): election after network failure ...
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 2 sending RequestVote RPC to 0 at Term1
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 2 sending RequestVote RPC to 1 at Term1
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:38 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:38 Candidate 2 has won the election, election ended for Term 1
+2024/12/06 23:15:38 Follower 0 voted for 2, it now has 3 votes
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 0 sending RequestVote RPC to 2 at Term2
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 0 sending RequestVote RPC to 1 at Term2
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 1
+2024/12/06 23:15:38 Follower 2 voted for 0, it now has 2 votes
+2024/12/06 23:15:38 Candidate 0 has won the election, election ended for Term 2
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 0 with term 1
+2024/12/06 23:15:38 Follower 1 voted for 0, it now has 3 votes
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Acquire lock at GetState, server 0
+2024/12/06 23:15:38 Acquire lock at GetState, server 1
+2024/12/06 23:15:38 Acquire lock at GetState, server 2
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 2 sending RequestVote RPC to 1 at Term3
+2024/12/06 23:15:38 Lock acquired at candidateRequestVote
+2024/12/06 23:15:38 Leader 2 sending RequestVote RPC to 0 at Term3
+2024/12/06 23:15:38 Lock acquired at RequestVote
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:38 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:38 Candidate 2 has won the election, election ended for Term 3
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:38 Lock acquired at AppendEntries
+2024/12/06 23:15:38 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:38 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 1 sending RequestVote RPC to 2 at Term4
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 3
+2024/12/06 23:15:39 Leader 1 sending RequestVote RPC to 0 at Term4
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at RequestVote
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 2 with term 4
+2024/12/06 23:15:39 Follower 2 voted for 1, it now has 2 votes
+2024/12/06 23:15:39 Candidate 1 has won the election, election ended for Term 4
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 2 with term 4
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Acquire lock at GetState, server 1
+2024/12/06 23:15:39 Acquire lock at GetState, server 2
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 2 with term 4
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 0 with term 4
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 1 with term 2
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 2 with term 2
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 2 with term 4
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 0 with term 4
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 2 sending RequestVote RPC to 0 at Term5
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 2 sending RequestVote RPC to 1 at Term5
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 2 with term 4
+2024/12/06 23:15:39 Lock acquired at RequestVote
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 0 with term 5
+2024/12/06 23:15:39 Lock acquired at RequestVote
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 5
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 1 to 0 with term 4
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Follower 0 voted for 2, it now has 2 votes
+2024/12/06 23:15:39 Candidate 2 has won the election, election ended for Term 5
+2024/12/06 23:15:39 Follower 1 voted for 2, it now has 3 votes
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 0 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 5
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 0 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 0 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 0 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 5
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 0 sending RequestVote RPC to 1 at Term6
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 0 sending RequestVote RPC to 2 at Term6
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 1 with term 5
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 2 to 0 with term 5
+2024/12/06 23:15:39 Lock acquired at RequestVote
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 2 with term 6
+2024/12/06 23:15:39 Lock acquired at RequestVote
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 1 with term 6
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Follower 2 voted for 0, it now has 2 votes
+2024/12/06 23:15:39 Candidate 0 has won the election, election ended for Term 6
+2024/12/06 23:15:39 Follower 1 voted for 0, it now has 3 votes
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 1 with term 6
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 2 with term 6
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 2 with term 6
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Lock acquired at AppendEntries
+2024/12/06 23:15:39 RequestVote RPC called from 0 to 1 with term 6
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:39 Acquire lock at GetState, server 0
+2024/12/06 23:15:39 Acquire lock at GetState, server 1
+2024/12/06 23:15:39 Acquire lock at GetState, server 2
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 1 sending RequestVote RPC to 2 at Term7
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 2 sending RequestVote RPC to 1 at Term7
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 2 sending RequestVote RPC to 0 at Term7
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 1 sending RequestVote RPC to 0 at Term7
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 1 sending RequestVote RPC to 2 at Term8
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 2 sending RequestVote RPC to 1 at Term8
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 2 sending RequestVote RPC to 0 at Term8
+2024/12/06 23:15:39 Lock acquired at candidateRequestVote
+2024/12/06 23:15:39 Leader 1 sending RequestVote RPC to 0 at Term8
+2024/12/06 23:15:39 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 2 sending RequestVote RPC to 0 at Term9
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 2 sending RequestVote RPC to 1 at Term9
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 0 at Term9
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 2 at Term9
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 2 at Term10
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 0 at Term10
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 2 sending RequestVote RPC to 1 at Term10
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 2 sending RequestVote RPC to 0 at Term10
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 2 sending RequestVote RPC to 1 at Term11
+2024/12/06 23:15:40 Leader 2 sending RequestVote RPC to 0 at Term11
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 2 at Term11
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 0 at Term11
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at sendHeartbeats
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 2 at Term12
+2024/12/06 23:15:40 Lock acquired at candidateRequestVote
+2024/12/06 23:15:40 Leader 1 sending RequestVote RPC to 0 at Term12
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 1 at Term12
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 0 at Term12
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 1 sending RequestVote RPC to 0 at Term13
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 1 sending RequestVote RPC to 2 at Term13
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 1 at Term13
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 0 at Term13
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 1 sending RequestVote RPC to 2 at Term14
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 1 sending RequestVote RPC to 0 at Term14
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 0 at Term14
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 1 at Term14
+2024/12/06 23:15:41 Acquire lock at GetState, server 2
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 1 sending RequestVote RPC to 2 at Term15
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 1 sending RequestVote RPC to 0 at Term15
+2024/12/06 23:15:41 Lock acquired at RequestVote
+2024/12/06 23:15:41 RequestVote RPC called from 1 to 2 with term 15
+2024/12/06 23:15:41 Follower 2 voted for 1, it now has 2 votes
+2024/12/06 23:15:41 Candidate 1 has won the election, election ended for Term 15
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at AppendEntries
+2024/12/06 23:15:41 RequestVote RPC called from 1 to 2 with term 15
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at AppendEntries
+2024/12/06 23:15:41 RequestVote RPC called from 1 to 2 with term 15
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at AppendEntries
+2024/12/06 23:15:41 RequestVote RPC called from 1 to 2 with term 15
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at AppendEntries
+2024/12/06 23:15:41 RequestVote RPC called from 1 to 2 with term 15
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at AppendEntries
+2024/12/06 23:15:41 RequestVote RPC called from 1 to 2 with term 15
+2024/12/06 23:15:41 Lock acquired at sendHeartbeats
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 1 at Term16
+2024/12/06 23:15:41 Lock acquired at candidateRequestVote
+2024/12/06 23:15:41 Leader 2 sending RequestVote RPC to 0 at Term16
+2024/12/06 23:15:41 Lock acquired at RequestVote
+2024/12/06 23:15:41 RequestVote RPC called from 2 to 1 with term 16
+2024/12/06 23:15:41 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:41 Candidate 2 has won the election, election ended for Term 16
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 16
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 16
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 16
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Acquire lock at GetState, server 1
+2024/12/06 23:15:42 Acquire lock at GetState, server 2
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 0 to 1 with term 6
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 0 to 2 with term 6
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 0 with term 16
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 16
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 0 with term 16
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 16
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at candidateRequestVote
+2024/12/06 23:15:42 Leader 1 sending RequestVote RPC to 0 at Term17
+2024/12/06 23:15:42 Lock acquired at candidateRequestVote
+2024/12/06 23:15:42 Leader 1 sending RequestVote RPC to 2 at Term17
+2024/12/06 23:15:42 Lock acquired at RequestVote
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 2 with term 17
+2024/12/06 23:15:42 Lock acquired at RequestVote
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 0 with term 17
+2024/12/06 23:15:42 Follower 2 voted for 1, it now has 2 votes
+2024/12/06 23:15:42 Candidate 1 has won the election, election ended for Term 17
+2024/12/06 23:15:42 Follower 0 voted for 1, it now has 3 votes
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 2 with term 17
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 0 with term 17
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 0 with term 17
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 2 with term 17
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 2 with term 17
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 0 with term 17
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 0 with term 17
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 1 to 2 with term 17
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at candidateRequestVote
+2024/12/06 23:15:42 Leader 2 sending RequestVote RPC to 1 at Term18
+2024/12/06 23:15:42 Lock acquired at candidateRequestVote
+2024/12/06 23:15:42 Leader 2 sending RequestVote RPC to 0 at Term18
+2024/12/06 23:15:42 Lock acquired at RequestVote
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 18
+2024/12/06 23:15:42 Lock acquired at RequestVote
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 0 with term 18
+2024/12/06 23:15:42 Follower 1 voted for 2, it now has 2 votes
+2024/12/06 23:15:42 Candidate 2 has won the election, election ended for Term 18
+2024/12/06 23:15:42 Follower 0 voted for 2, it now has 3 votes
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 0 with term 18
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 18
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 0 with term 18
+2024/12/06 23:15:42 Lock acquired at AppendEntries
+2024/12/06 23:15:42 RequestVote RPC called from 2 to 1 with term 18
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Lock acquired at sendHeartbeats
+2024/12/06 23:15:42 Acquire lock at GetState, server 0
+2024/12/06 23:15:42 Acquire lock at GetState, server 1
+2024/12/06 23:15:42 Acquire lock at GetState, server 2
+  ... Passed --   4.5  3  252   20534    0
+PASS
+ok  	labs/src/raft	8.239s
